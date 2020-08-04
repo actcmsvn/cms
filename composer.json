@@ -1,0 +1,13 @@
+{
+    "name": "host9999/cms",
+    "description": "The Host9999's CMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Host9999",
+            "email": "host9999.net@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
