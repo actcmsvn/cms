@@ -1,8 +1,11 @@
 # cms
 ## Installation
+```
+composer require actcmsvn/cms
+```
 Require this package in your `composer.json` and update composer. This will download the package and CMS of ACT.
 ```
-"act/cms": "dev-master"
+"actcmsvn/cms": "^1.0"
 ```
 Now, let's make our package "visible" to main Laravel structure, and assign alias to it, we do that by adding this line to main `composer.json` section called **"psr-4"**:
 ```
@@ -12,10 +15,10 @@ Now, let's make our package "visible" to main Laravel structure, and assign alia
       ],
       "psr-4": {
           "App\\": "app/",
-          "ACT\\CMS\\": "vendor/act/cms/src"
+          "ACT\\CMS\\": "vendor/actcmsvn/cms/src"
       }
 },
-````
+```
 And then we run this command from main folder:
 ```
 composer dump-autoload
@@ -45,7 +48,7 @@ Adding `helpers.php` to main `composer.json` section called **"files"**:
       ],
       "psr-4": {
           "App\\": "app/",
-          "ACT\\CMS\\": "vendor/act/cms/src"
+          "ACT\\CMS\\": "vendor/actcmsvn/cms/src"
       },
       "files": [
   		  "helpers.php"
