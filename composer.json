@@ -1,0 +1,13 @@
+{
+    "name": "actcmsvn/cms",
+    "description": "The ACTCMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ACTCMS",
+            "email": "actcms.work@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
