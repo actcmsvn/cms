@@ -2,6 +2,10 @@
     "name": "actcmsvn/cms",
     "description": "The ACTCMS",
     "license": "MIT",
+    "keywords": [
+        "laravel",
+        "actcms"
+    ],
     "authors": [
         {
             "name": "ACTCMS",
