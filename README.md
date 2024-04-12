@@ -1,4 +1,11 @@
 # cms
+
+<p align="center">
+<a href="https://packagist.org/packages/actcmsvn/cms"><img src="https://img.shields.io/packagist/dt/actcmsvn/cms" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/actcmsvn/cms"><img src="https://img.shields.io/packagist/v/actcmsvn/cms" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/actcmsvn/cms"><img src="https://img.shields.io/packagist/l/actcmsvn/cms" alt="License"></a>
+</p>
+
 ## Installation
 Require this package in your `composer.json` and update composer. This will download the package and CMS of ACT.
 ```
